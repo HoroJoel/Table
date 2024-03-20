@@ -16,16 +16,14 @@ const ConfirmDeleteModal: React.FC<ConfirmDeleteModalProps> = ({
 }) => {
   return (
     <Modal>
-      <div>
-        <h2 className="font-bold mb-4">
-          {`Are you sure you want to delete  "${account.alias}"  account?`}
-        </h2>
-        <div className="flex justify-end">
-          <Button className="mr-2" onClick={onConfirm}>
-            Confirm
-          </Button>
-          <Button onClick={onClose}>Cancel</Button>
-        </div>
+      <h2 className="font-bold mb-4">
+        {`Are you sure you want to delete  "${account.alias}"  account?`}
+      </h2>
+      <div className="flex justify-end">
+        <Button className="mr-2" onClick={onConfirm}>
+          Confirm
+        </Button>
+        <Button onClick={onClose}>Cancel</Button>
       </div>
     </Modal>
   );

@@ -1,6 +1,7 @@
 import React from "react";
 import { Account } from "../../interfaces";
 import Button from "../Button";
+
 interface AccountRowProps {
   account: Account;
   onEdit: () => void;
