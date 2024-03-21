@@ -15,16 +15,16 @@ const AccountRow: React.FC<AccountRowProps> = ({
 }) => {
   return (
     <tr>
-      <td className="border border-slate-700 capitalize p-2">
+      <td className="border border-slate-700 capitalize p-2 text-xs	">
         {account.alias}
       </td>
-      <td className="border border-slate-700 capitalize p-2">
+      <td className="border border-slate-700 capitalize p-2 text-xs	">
         {account.number}
       </td>
-      <td className="border border-slate-700 capitalize p-2">
+      <td className="border border-slate-700 capitalize p-2 text-xs	">
         {account.balance}
       </td>
-      <td className="border border-slate-700 capitalize">
+      <td className="border border-slate-700">
         <Button className="text-xs" onClick={onEdit}>
           ✏️
         </Button>

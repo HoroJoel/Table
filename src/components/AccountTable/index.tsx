@@ -28,10 +28,10 @@ const AccountTable = ({ data }: { data: Account[] }) => {
       <table className="border-separate border border-slate-500">
         <thead>
           <tr>
-            <th className="border border-slate-600 text-lg">Alias</th>
-            <th className="border border-slate-600 text-lg">N° account</th>
-            <th className="border border-slate-600 text-lg">Balance</th>
-            <th className="border border-slate-600 text-lg min-w-36">
+            <th className="border border-slate-600 text-sm">Alias</th>
+            <th className="border border-slate-600 text-sm">N° account</th>
+            <th className="border border-slate-600 text-sm">Balance</th>
+            <th className="border border-slate-600 text-sm min-w-36">
               Actions
             </th>
           </tr>
