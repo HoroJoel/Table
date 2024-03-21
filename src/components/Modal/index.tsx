@@ -1,13 +1,14 @@
-import React, { ReactNode } from "react";
+import React from "react";
 import styles from "./index.module.css";
+
 interface ModalProps {
-  children: ReactNode;
+  children: React.ReactNode;
 }
 
-const Modal: React.FC<ModalProps> = (props) => {
+const Modal: React.FC<ModalProps> = ({ children }) => {
   return (
     <div className={styles.container}>
-      <div>{props.children}</div>
+      <div>{children}</div>
     </div>
   );
 };

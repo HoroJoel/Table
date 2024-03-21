@@ -25,6 +25,7 @@ const EditAccountModal: React.FC<EditAccountModalProps> = ({
       <h2 className="text-lg font-semibold mb-4">Edit Alias</h2>
       <div className="mb-4">
         <input
+          placeholder="alias"
           id="alias"
           type="text"
           value={alias}

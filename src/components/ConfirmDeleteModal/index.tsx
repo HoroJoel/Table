@@ -9,11 +9,11 @@ interface ConfirmDeleteModalProps {
   onClose: () => void;
 }
 
-const ConfirmDeleteModal: React.FC<ConfirmDeleteModalProps> = ({
+const ConfirmDeleteModal = ({
   account,
   onConfirm,
   onClose,
-}) => {
+}: ConfirmDeleteModalProps) => {
   return (
     <Modal>
       <h2 className="font-bold mb-4">
