@@ -15,20 +15,20 @@ const AccountRow: React.FC<AccountRowProps> = ({
 }) => {
   return (
     <tr>
-      <td className="border border-slate-700 capitalize p-2 text-xs	">
+      <td className="border border-slate-700 capitalize p-2 text-xs  md:text-lg	">
         {account.alias}
       </td>
-      <td className="border border-slate-700 capitalize p-2 text-xs	">
+      <td className="border border-slate-700 capitalize p-2 text-xs  md:text-lg	">
         {account.number}
       </td>
-      <td className="border border-slate-700 capitalize p-2 text-xs	">
+      <td className="border border-slate-700 capitalize p-2 text-xs  md:text-lg	">
         {account.balance}
       </td>
       <td className="border border-slate-700">
-        <Button className="text-xs" onClick={onEdit}>
+        <Button className="text-xs  md:text-sm" onClick={onEdit}>
           ✏️
         </Button>
-        <Button className="text-xs ml-2" onClick={onDelete}>
+        <Button className="text-xs  md:text-sm ml-2" onClick={onDelete}>
           🗑️
         </Button>
       </td>
