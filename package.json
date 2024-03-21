@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "table",
+=======
+  "name": "tabla",
+>>>>>>> 59e6a30 (ship: Title page)
   "private": true,
   "version": "0.0.0",
   "type": "module",
